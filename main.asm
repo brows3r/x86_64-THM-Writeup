@@ -73,3 +73,23 @@ AND MASK1, 128   ; Perform AND operation on the
 					  
 ADD MARKS, 10    ; Add 10 to the variable MARKS
 MOV AL, 10       ; Transfer the value 10 to the AL register
+
+; Hello World in Assembly
+; -----------------------
+
+section	.text
+   global _start    
+	
+_start:	            
+   mov	edx,len     
+   mov	ecx,msg    
+   mov	ebx,1       
+   mov	eax,4       
+   int	0x80        
+	
+   mov	eax,1       
+   int	0x80        
+
+section	.data
+msg db 'Hello, world!', 0xa
+len equ $ - msg
