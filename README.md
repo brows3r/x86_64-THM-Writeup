@@ -1,9 +1,8 @@
-# x86_64-THM-Writeup
+# THM x86_64 Assembly Writeup
 My THM writeup on Assembly.
 
 # Writeup (Below This)
 
-THM x86_64 Assembly Writeup
 URL: https://tryhackme.com/room/introtox8664
 -----------------------------------------------------------
 
